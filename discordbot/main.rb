@@ -11,4 +11,8 @@ bot.command :ping do |event|
   "Pong!"
 end
 
+bot.command :source do |event|
+  "https://github.com/Random-X-Language/randomRuby/tree/master/discordbot"
+end
+
 bot.run
